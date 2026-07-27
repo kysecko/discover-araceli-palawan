@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+  --font-poppins: "Poppins", sans-serif;
+  --font-playfair: "Playfair Display", sans-serif;
+
+  --color-primary: #050315;
+  --color-secondary: #151326;
+  --color-muted: #2b293a;
+
+  --color-orange-primary: #ff4400;
+  --color-orange-light: #ff7043;
+
+  --color-teal-primary: #267972;
+  --color-teal-light: #4fa69f;
+
+  --color-background: #f8f7f4;
+}
+
+/* Gallery Styles */
+.circular-gallery {
+  width: 100%;
+  height: 620px;
+  max-width: 1400px;
+  margin: 40px auto;
+  border-radius: 16px;
+  overflow: hidden;
+}
